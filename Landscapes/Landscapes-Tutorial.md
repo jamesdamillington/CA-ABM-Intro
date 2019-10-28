@@ -12,7 +12,7 @@ In the FFCA, trees and sparks are dropped in random locations with specified fre
 
 Download (right-click, save as) the file [FFCA_v6.nlogo](https://raw.githubusercontent.com/jamesdamillington/CA-ABM-Intro/master/Landscapes/FFCA_v6.nlogo) (right-click link and save as) file to your computer and open it in NetLogo. 
 
-Experiment with different values of `spark_freq` to see how a power-law frequency-area distribution is always produced. 
+**Experiment with different values of `spark_freq` to see how a power-law frequency-area distribution is always produced.** 
 
 The model inspired researchers to later search for similar frequency-area distributions in real world landscapes (e.g. [Malamud et al. 1998](https://doi.org/10.1126/science.281.5384.1840), [Malamud et al. 2005](https://doi.org/10.1073/pnas.0500880102)).
 
