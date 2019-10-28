@@ -41,6 +41,6 @@ Compare behaviour of each model independently to when they interact here. Answer
 3. As in Section 2, decide what your state variable/s is/are and how you will vary parameter to ensure systematic comparison. How will you organise and store your results to enable this?
 
 ## Further Models
-Another model available to download - [Peterson2002_v6.nlogo]()- explores the importance of memory in landscapes and ecological systems, again using wildfire and vegetation as an example. The model is an implementation of that investigated by Peterson (2002). Feel free to explore this model and understand the relationship between spatial contagion and ecological memory in conjunction with the paper. 
+Another model available to download - [Peterson2002_v6.nlogo](https://raw.githubusercontent.com/jamesdamillington/CA-ABM-Intro/master/Landscapes/Peterson2002_v6.nlogo)- explores the importance of memory in landscapes and ecological systems, again using wildfire and vegetation as an example. The model is an implementation of that investigated by Peterson (2002). Feel free to explore this model and understand the relationship between spatial contagion and ecological memory in conjunction with the paper. 
 
 ## Reading
