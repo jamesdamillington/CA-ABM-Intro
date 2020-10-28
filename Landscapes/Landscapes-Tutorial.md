@@ -1,7 +1,7 @@
 # Landscapes CA and ABM Tutorial
 This tutorial presents some simple cellular automata (CA) and agent-based models (ABM) to see how such approaches might help to investigate environmental and landscape dynamics and change. In particular, we will focus on the interaction of vegetation, wildfire and browsing ungulates.
 
-The tutorial uses the [NetLogo](http://ccl.northwestern.edu/netlogo/) (version 6) modelling environment, freely available to [download here](https://ccl.northwestern.edu/netlogo/download.shtml). Alternatively, you can try running the models below in the online  [Netlogo Web](http://ccl.northwestern.edu/netlogo/) version (although downloading, installing and running locally is preferred).
+The tutorial uses the [NetLogo](http://ccl.northwestern.edu/netlogo/) (version 6) modelling environment, freely available to [download here](https://ccl.northwestern.edu/netlogo/download.shtml). Alternatively, you can try running the models below in the online  [Netlogo Web](http://ccl.northwestern.edu/netlogo/) version (but downloading, installing and running locally is preferred).
 
 If you are unfamiliar with the NetLogo modelling environment, you may find it useful to review [their first tutorial](https://ccl.northwestern.edu/netlogo/docs/tutorial1.html). At a minimum you should understand what the different elements of the [NetLogo Interface Tab](https://ccl.northwestern.edu/netlogo/docs/interfacetab.html) are (i.e. sliders, choosers, etc).   
 
@@ -36,15 +36,20 @@ _Play with the model to understand properly how each type of walk operates._
 ### Task 2c
 _Examine system dynamics more systematically: create an Excel spreadsheet or similar to store your results for comparison, including plotting the output in figures._
 
- To do this you will need to decide what the 'state variable' of your model system is; a state variable is a variable that describes (or measures) the state of the system (e.g. number of trees, number of ungulates). You will also need to think about how you will systematically vary the (input) parameter values to examine their influence on the state variable. A parameter specifies some magnitude of relationship between variables or entities for a given model structure (parameters here include `energy-from-food`, for example). You will need to think about what the lower parameter values will be, what the largest will be and what interval between you examine. In an agent-based model like this you can also modify the rule of behaviour of the agents (e.g. the walking strategy). **
+ To do this will need to:
+ - Decide what the 'state variable' of your model system is; a state variable is a variable that describes (or measures) the state of the system (e.g. number of trees, number of ungulates).
+ - Think about how you will systematically vary the (input) parameter values to examine their influence on the state variable. A parameter specifies some magnitude of relationship between variables or entities for a given model structure (parameters here include `energy-from-food`, for example).
+ - Think about what the lower parameter values will be, what the largest will be and what interval between you examine. In an agent-based model like this you can also modify the rule of behaviour of the agents (e.g. the walking strategy).
 
-### Task 2d
- think about how you might extend the model to represent and investigate more sophisticated vegetation searching abilities for ungulates (e.g. memory; [Boyer and Walsh 2010](https://doi.org/10.1098/rsta.2010.0275)). What rules might you want to add? Do you think you could quickly modify the code to do this? See the [NetLogo Tutorials](https://ccl.northwestern.edu/netlogo/docs/) for more about the NetLogo language and how it is structured, and see the User Manual [online](https://ccl.northwestern.edu/netlogo/docs/) (within the NetLogo software go to Help -> NetLogo User Manual).
+### Additional Task
+ _Think about how you might extend the model to represent and investigate more sophisticated vegetation searching abilities for ungulates_
+
+What rules might you want to add?  For example, how could you incorporate agent memory (e.g., [Boyer and Walsh 2010](https://doi.org/10.1098/rsta.2010.0275)). You will need to learn more about how NetLogo works to do this - see the [NetLogo Tutorials](https://ccl.northwestern.edu/netlogo/docs/) and the User Manual [online](https://ccl.northwestern.edu/netlogo/docs/) (within the NetLogo software go to Help -> NetLogo User Manual) for more about the NetLogo language and how it is structured.
 
 ## 3. Ungulates, Vegetation and Fire
 To show how different the two different types of model (CA and ABM) can be combined we'll look at model that combines the FFCA with the Ungulate Browser model. In this model both FFCA and Ungulates models function as previously. Both fires and ungulates remove vegetation from the landscape. Fires do not kill ungulates.
 
-Download (right-click, save as) and open the [FFCA_Ungulates_v6.nlogo](https://raw.githubusercontent.com/jamesdamillington/CA-ABM-Intro/master/Landscapes/FFCA_Ungulates_v6.nlogo) file in NetLogo.
+Download (right-click, save as) and open the [FFCA_Ungulates_v6.nlogo](https://raw.githubusercontent.com/jamesdamillington/CA-ABM-Intro/master/Landscapes/FFCA_Ungulates_v6.nlogo) file in NetLogo (or upload to NetLogo Web).
 
 ### Task 3a
 _Contrast the behaviour of each model independently to their interactions in this combined model, and answer the following questions:_
