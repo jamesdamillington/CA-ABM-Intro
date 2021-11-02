@@ -18,7 +18,8 @@ ungulates-own [energy]
 
 to setup
 
-  __clear-all-and-reset-ticks
+  ca
+  reset-ticks
   set-default-shape turtles "square"
   ask patches [ set pcolor brown ]
 
@@ -109,7 +110,6 @@ to reproduce  ;; sheep procedure
   ]
 
 end
-
 
 
 
@@ -738,7 +738,7 @@ false
 Polygon -7500403 true true 270 75 225 30 30 225 75 270
 Polygon -7500403 true true 30 75 75 30 270 225 225 270
 @#$#@#$#@
-NetLogo 6.0
+NetLogo 6.1.1
 @#$#@#$#@
 @#$#@#$#@
 @#$#@#$#@
