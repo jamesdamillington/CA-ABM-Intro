@@ -6,7 +6,7 @@ We will explore how we might use agent-based modelling to think about this quest
 Let's think about a hypothetical city neighbourhood with households on a grid. How might we define 'happiness' of a household with reference to the similarity of its neighbours (i.e. its spatial context).
 
 ### Step 1
-**Download** [this model code](HappyUnhappy_v6.nlogo) - on Windows, right-click and choose 'Save Link As' (or similar); on Mac Control-click and choose 'Download Linked File'.
+**Download** [this model code](https://raw.githubusercontent.com/jamesdamillington/CA-ABM-Intro/master/Schelling/HappyUnhappy_v6.nlogo) - on Windows, right-click and choose 'Save Link As' (or similar); on Mac Control-click and choose 'Download Linked File'.
 
 ### Step 2
 **Open the model you have just downloaded.** You can do this in one of two ways:
@@ -29,13 +29,15 @@ To see how happiness is actually calculated by the model, **go to the Code tab**
 Now that we understand how happiness is defined in this model, let's consider how we might make the model dynamic by allowing households to move location if they are 'unhappy'. Households move until they find a location where they are 'happy'. If all households can find a location at which they are happy, the simulation stops and we can assess segregation.
 
 ### Step 5
-**Download** [this model code](Segregation_shapes_v6.nlogo) and open in NetLogo or NetLogo Web (as in Steps 1 and 2)
+**Download** [this model code](https://raw.githubusercontent.com/jamesdamillington/CA-ABM-Intro/master/Schelling/Segregation_shapes_v6.nlogo) and open in NetLogo or NetLogo Web (as in Steps 1 and 2)
 
 ### Step 6
 **Read** the 'What is it?' and 'How to use it' sections in the Info tab (as in Step 3).
 
 ### Step 7
 **Open the Code tab.** You will see that we have more code in this model than the first. Look at how the `setup` procedure is similar (but slightly different) to the `setup` procedure in the first model.
+
+<center><img src="img/segregation_ss.png" alt="screen shot of the Schelling Model model" style="width: 500px;"/></center>
 
 ![screen shot of the Schelling Model model](img/segregation_ss.png)
 
