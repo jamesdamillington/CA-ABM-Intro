@@ -10,13 +10,13 @@ Let's think about a hypothetical city neighbourhood with households on a grid. H
 
 ### Step 2
 **Open the model you have just downloaded.** You can do this in one of two ways:
-- if you have NetLogo installed on your computer (as on King's College computers) open NetLogo then go to File -> Open and find the _HappyUnhappy_v6.nlogo_ file on your computer (likely in the downloads folder)</li>
+- if you have NetLogo installed on your computer (as on King's College computers) open NetLogo then go to File -> Open and find the _HappyUnhappy_v6.nlogo_ file on your computer (likely in the downloads folder)
 - if you do not have NetLogo installed on your computer (likely, if you are on your own computer and have never used NetLogo before), go to [NetLogo Web](https://netlogoweb.org/), click the _Browse_ button in top right to Upload a Model, and find the _HappyUnhappy_v6.nlogo_ file on your computer (likely in the downloads folder)
 
 ### Step 3
 **Read** the contents of the Model Info tab:
-- In the NetLogo program the Info tab is at the top.
-- In NetLogo Web the Model Info tab is at the bottom.
+- In the NetLogo program the Info tab is at the top
+- In NetLogo Web the Model Info tab is at the bottom
 
 Make sure you understand how 'happiness' is defined, by reading the contents of the Model Info tab fully and experimenting the model by clicking the buttons, moving the slider and observing the output (in the Interface tab in the NetLogo program, which should look something like the image below). Remember to click the _Setup_ button each time you want to restart.
 
@@ -29,15 +29,13 @@ To see how happiness is actually calculated by the model, **go to the Code tab**
 Now that we understand how happiness is defined in this model, let's consider how we might make the model dynamic by allowing households to move location if they are 'unhappy'. Households move until they find a location where they are 'happy'. If all households can find a location at which they are happy, the simulation stops and we can assess segregation.
 
 ### Step 5
-**Download** [this model code](https://raw.githubusercontent.com/jamesdamillington/CA-ABM-Intro/master/Schelling/Segregation_shapes_v6.nlogo) and open in NetLogo or NetLogo Web (as in Steps 1 and 2)
+**Download** [this model code](https://raw.githubusercontent.com/jamesdamillington/CA-ABM-Intro/master/Schelling/Segregation_shapes_v6.nlogo) and open in _NetLogo_ or _NetLogo Web_ (as in Steps 1 and 2).
 
 ### Step 6
 **Read** the 'What is it?' and 'How to use it' sections in the Info tab (as in Step 3).
 
 ### Step 7
 **Open the Code tab.** You will see that we have more code in this model than the first. Look at how the `setup` procedure is similar (but slightly different) to the `setup` procedure in the first model.
-
-<center><img src="img/segregation_ss.png" alt="screen shot of the Schelling Model model" style="width: 500px;"/></center>
 
 ![screen shot of the Schelling Model model](img/segregation_ss.png)
 

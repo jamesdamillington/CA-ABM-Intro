@@ -1,6 +1,4 @@
-# CA-ABM-Intro
-
-## Introduction to spatial simulation (CA and ABM) using NetLogo
+# Introduction to spatial simulation (CA and ABM) using NetLogo
 
 Dr James Millington | https://landscapemodelling.net/
 
