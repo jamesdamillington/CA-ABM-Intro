@@ -20,7 +20,7 @@ Let's think about a hypothetical city neighbourhood with households on a grid. H
 
 Make sure you understand how 'happiness' is defined, by reading the contents of the Model Info tab fully and experimenting the model by clicking the buttons, moving the slider and observing the output (in the Interface tab in the NetLogo program, which should look something like the image below). Remember to click the _Setup_ button each time you want to restart.
 
-![screen shot of the Happy-Unhappy model](HappyUnhappy_SS.png)
+![screen shot of the Happy-Unhappy model](img/HappyUnhappy_SS.png)
 
 ### Step 4
 To see how happiness is actually calculated by the model, **go to the Code tab** and find the `answer` procedure (all the code between `to answer` and `end`).
@@ -37,7 +37,7 @@ Now that we understand how happiness is defined in this model, let's consider ho
 ### Step 7
 **Open the Code tab.** You will see that we have more code in this model than the first. Look at how the `setup` procedure is similar (but slightly different) to the `setup` procedure in the first model.
 
-![screen shot of the Schelling Model model](segregation_ss.png)
+![screen shot of the Schelling Model model](img/segregation_ss.png)
 
 ### Step 8
 **Explore the model.** Click the _Setup_ button each time you want to reset the model to a new random initial state. Note how the _Go_ button has two arrows pointing to one another in the bottom left while the _Go Once_ button does not (in the Interface tab in the NetLogo program, which should look something like the image above). The arrows mean that all code in the procedure called by the button will be continuously repeated until the code tells it to stop.
@@ -57,7 +57,7 @@ After the `move-unhappy-turtles` procedure, the timestep is increased by 1 (not 
 ### Step 9
 **Experiment with the model.** Work through the instructions in the 'Things to Try' section of the Info tab. Record your results in a spreadsheet (e.g. Excel). Setup your results table as shown in the image below - your results will be typed into the shaded (green) cells.
 
-![screen shot of the segregation results table](seg_results_table.jpg)
+![screen shot of the segregation results table](img/seg_results_table.jpg)
 
 ### Step 10
 **Answer the following questions:**
