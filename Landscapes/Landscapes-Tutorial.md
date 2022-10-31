@@ -44,7 +44,7 @@ _Examine system dynamics more systematically: create an Excel spreadsheet or sim
 ### Additional Task
  _Think about how you might extend the model to represent and investigate more sophisticated vegetation searching abilities for ungulates_
 
-What rules might you want to add?  For example, how could you incorporate agent memory (e.g., [Boyer and Walsh 2010](https://doi.org/10.1098/rsta.2010.0275)). You will need to learn more about how NetLogo works to do this - see the [NetLogo Tutorials](https://ccl.northwestern.edu/netlogo/docs/) and the User Manual [online](https://ccl.northwestern.edu/netlogo/docs/) (within the NetLogo software go to Help -> NetLogo User Manual) for more about the NetLogo language and how it is structured.
+What rules might you want to add?  For example, how could you incorporate agent memory (e.g., [Boyer and Walsh 2010](https://doi.org/10.1098/rsta.2010.0275)). You will need to learn more about how NetLogo works to do this - see the [NetLogo Tutorials](https://ccl.northwestern.edu/netlogo/docs/tutorial1.html) and the User Manual [online](https://ccl.northwestern.edu/netlogo/docs/) (within the NetLogo software go to Help -> NetLogo User Manual) for more about the NetLogo language and how it is structured.
 
 ## 3. Ungulates, Vegetation and Fire
 To show how different the two different types of model (CA and ABM) can be combined we'll look at model that combines the FFCA with the Ungulate Browser model. In this model both FFCA and Ungulates models function as previously. Both fires and ungulates remove vegetation from the landscape. Fires do not kill ungulates.
@@ -71,4 +71,4 @@ Millington, J.D.A. (2016) Simulation and reduced complexity models In: Clifford 
 
 O'Sullivan, D., & Perry, G. L. (2013) _[Spatial Simulation: Exploring Pattern and Process.](http://patternandprocess.org/)_ London: Wiley-Blackwell
 
-Railsback, S. F., & Grimm, V. (2011) _[Agent-based and individual-based modeling: a practical introduction.](http://www.railsback-grimm-abm-book.com/)_ Princeton University Press
+Railsback, S. F., & Grimm, V. (2019) _[Agent-based and individual-based modeling: a practical introduction.](http://www.railsback-grimm-abm-book.com/)_ Princeton University Press
