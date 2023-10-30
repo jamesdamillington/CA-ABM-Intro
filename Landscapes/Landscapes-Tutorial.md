@@ -65,9 +65,11 @@ As in Section 2, decide what your state variable/s is/are and how you will vary 
 Another model available to download - [Peterson2002_v6.nlogo](https://raw.githubusercontent.com/jamesdamillington/CA-ABM-Intro/master/Landscapes/Peterson2002_v6.nlogo) - explores the importance of memory in landscapes and ecological systems, again using wildfire and vegetation as an example. The model is an implementation of that investigated by [Peterson (2002)](https://doi.org/10.1007/s10021-001-0077-1). Feel free to explore this model and understand the relationship between spatial contagion and ecological memory in conjunction with the paper.
 
 ## Further Reading
+An, L., Grimm, V., Sullivan, A., et al. (2021) [Challenges, tasks, and opportunities in modeling agent-based complex systems](https://doi.org/10.1016/j.ecolmodel.2021.109685). _Ecological Modelling_, 457, 109685.
+
 Bithell, M., Brasington, J., & Richards, K. (2008) [Discrete-element, individual-based and agent-based models: Tools for interdisciplinary enquiry in geography?](https://doi.org/10.1016/j.geoforum.2006.10.014) _Geoforum_, 39(2), 625-642
 
-Millington, J.D.A. (2016) Simulation and reduced complexity models In: Clifford et al. (Eds.) _[Key Methods in Geography.](https://uk.sagepub.com/en-gb/eur/key-methods-in-geography/book242938)_ (3rd ed.) London: SAGE, 400-422. **Email james.millington[at]kcl.ac.uk for a .pdf**
+Millington, J.D.A. (2023) Simulation and reduced complexity models _In:_ Clifford et al. (Eds.) _[Key Methods in Geography.](https://uk.sagepub.com/en-gb/eur/key-methods-in-geography/book277816)_ (3rd ed.) London: SAGE, 400-422. _[Previous version available here](http://landscapemodelling.net/pdf/paper/Millington_2016_Ch-24_Clifford2016.pdf)_
 
 O'Sullivan, D., & Perry, G. L. (2013) _[Spatial Simulation: Exploring Pattern and Process.](http://patternandprocess.org/)_ London: Wiley-Blackwell
 
