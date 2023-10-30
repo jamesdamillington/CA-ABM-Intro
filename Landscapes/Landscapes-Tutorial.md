@@ -1,5 +1,5 @@
 # Landscapes CA and ABM Tutorial
-This tutorial presents some simple cellular automata (CA) and agent-based models (ABM) to see how such approaches might help to investigate environmental and landscape dynamics and change. In particular, we will focus on the interaction of vegetation, wildfire and browsing ungulates. It exemplifies some of the concepts introducted in [Millington (2023)](#further-reading). 
+This tutorial presents some simple cellular automata (CA) and agent-based models (ABM) to see how such approaches might help to investigate environmental and landscape dynamics and change. It exemplifies some of the concepts introducted in [Millington (2023)](#further-reading). In particular, we will focus on the interaction of vegetation, wildfire and browsing ungulates. 
 
 The tutorial uses the [NetLogo](http://ccl.northwestern.edu/netlogo/) (version 6) modelling environment, freely available to [download here](https://ccl.northwestern.edu/netlogo/download.shtml). Alternatively, you can try running the models below in the online  [Netlogo Web](https://www.netlogoweb.org/launch#NewModel) version.
 
