@@ -1,11 +1,11 @@
 # Landscapes CA and ABM Tutorial
-This tutorial presents some simple cellular automata (CA) and agent-based models (ABM) to see how such approaches might help to investigate environmental and landscape dynamics and change. In particular, we will focus on the interaction of vegetation, wildfire and browsing ungulates.
+This tutorial presents some simple cellular automata (CA) and agent-based models (ABM) to see how such approaches might help to investigate environmental and landscape dynamics and change. In particular, we will focus on the interaction of vegetation, wildfire and browsing ungulates. It exemplifies some of the concepts introducted in [Millington (2023)](#further-reading). 
 
-The tutorial uses the [NetLogo](http://ccl.northwestern.edu/netlogo/) (version 6) modelling environment, freely available to [download here](https://ccl.northwestern.edu/netlogo/download.shtml). Alternatively, you can try running the models below in the online  [Netlogo Web](http://ccl.northwestern.edu/netlogo/) version (but downloading, installing and running locally is preferred).
+The tutorial uses the [NetLogo](http://ccl.northwestern.edu/netlogo/) (version 6) modelling environment, freely available to [download here](https://ccl.northwestern.edu/netlogo/download.shtml). Alternatively, you can try running the models below in the online  [Netlogo Web](https://www.netlogoweb.org/launch#NewModel) version.
 
 If you are unfamiliar with the NetLogo modelling environment, you may find it useful to review [their first tutorial](https://ccl.northwestern.edu/netlogo/docs/tutorial1.html). At a minimum you should understand what the different elements of the [NetLogo Interface Tab](https://ccl.northwestern.edu/netlogo/docs/interfacetab.html) are (i.e. sliders, choosers, etc).   
 
-Download model files where indicated to your computer (using right-click, then Save As...), then open the file _from NetLogo_ (or upload to Netlogo Web) to experiment with the models.   
+Download model files, where indicated in the instructions below, to your computer (using right-click, then Save As...), then open the file _from NetLogo_ (or upload to Netlogo Web) to experiment with the models.   
 
 ## 1. The Forest Fire Cellular Automata
 The forest-fire cellular automata (FFCA) model rose to prominence in the late 1980s as researchers examined the theory of self-organized criticality in dynamical systems. Self-organized criticality is the idea that dynamical systems order themselves to a 'critical' state (where small inputs can produce outputs of any size) regardless of initial conditions and independent of any exogenous driving force. The FFCA, its construction and implications, is well described in [Millington et al. (2006)](https://doi.org/10.1144/GSL.SP.2006.261.01.12) (available for [download here](http://www.academia.edu/download/3460910/Millington_etal_2006.pdf)).
@@ -25,7 +25,7 @@ A fundamental stochastic model used in simulation models to represent and invest
 In the model, ungulates move through the landscape using either a _random walk_ or a _directed walk_ (set by the walk chooser). If _random_, ungulates turn to a random direction. If _directed_, ungulates turn to face any vegetation in the eight surrounding patches (known as the Moore neighbourhood), otherwise (if no vegetation exists in the Moore neighbourhood) they turn to a random direction. In both cases, after turning ungulates move forward a distance of one patch. Each time they move, ungulates use up (subtract) one unit of energy. After moving, if vegetation is present in the patch the ungulate is at, the ungulate eats the vegetation, removing it from the landscape and gaining an amount of energy specified by `energy-from-food`.
 
 ### Task 2a
-_Play with the model to understand properly how each type of walk operates._
+_Work with the model to understand properly how each type of walk operates._
 
 ### Task 2b
  _Answer the following questions_:
