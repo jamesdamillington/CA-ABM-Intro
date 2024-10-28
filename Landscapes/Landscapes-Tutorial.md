@@ -69,7 +69,7 @@ An, L., Grimm, V., Sullivan, A., et al. (2021) [Challenges, tasks, and opportuni
 
 Bithell, M., Brasington, J., & Richards, K. (2008) [Discrete-element, individual-based and agent-based models: Tools for interdisciplinary enquiry in geography?](https://doi.org/10.1016/j.geoforum.2006.10.014) _Geoforum_, 39(2), 625-642
 
-Millington, J.D.A. (2023) Simulation and reduced complexity models _In:_ Clifford et al. (Eds.) _[Key Methods in Geography.](https://uk.sagepub.com/en-gb/eur/key-methods-in-geography/book277816)_ (3rd ed.) London: SAGE, 445-469. _[Previous version available here](http://landscapemodelling.net/pdf/paper/Millington_2016_Ch-24_Clifford2016.pdf)_
+Millington, J.D.A. (2023) Simulation and reduced complexity models _In:_ Clifford et al. (Eds.) _[Key Methods in Geography.](https://uk.sagepub.com/en-gb/eur/key-methods-in-geography/book277816)_ (4th ed.) London: SAGE, 445-469. _[Previous version available here](http://landscapemodelling.net/pdf/paper/Millington_2016_Ch-24_Clifford2016.pdf)_
 
 O'Sullivan, D., & Perry, G. L. (2013) _[Spatial Simulation: Exploring Pattern and Process.](http://patternandprocess.org/)_ London: Wiley-Blackwell
 
